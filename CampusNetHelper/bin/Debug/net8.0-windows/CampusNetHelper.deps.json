@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CampusNetHelper/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "MadMilkman.Ini": "1.0.6",
+          "Panuon.WPF.UI": "1.1.16.3"
+        },
+        "runtime": {
+          "CampusNetHelper.dll": {}
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "MadMilkman.Ini/1.0.6": {
+        "runtime": {
+          "lib/net20/MadMilkman.Ini.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "Panuon.WPF/1.0.3": {
+        "runtime": {
+          "lib/net7.0-windows/Panuon.WPF.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Panuon.WPF.UI/1.1.16.3": {
+        "dependencies": {
+          "Panuon.WPF": "1.0.3"
+        },
+        "runtime": {
+          "lib/net7.0-windows/Panuon.WPF.UI.dll": {
+            "assemblyVersion": "1.1.16.3",
+            "fileVersion": "1.1.16.3"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CampusNetHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    },
+    "MadMilkman.Ini/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tf33gAofTNNg65O/yJTJ9tF0101KFm0hJjGUnj6plsWOmn8sCYSZg+d7Sw/HoulB7zrNfKtLy+Zeqo7JHQb8yQ==",
+      "path": "madmilkman.ini/1.0.6",
+      "hashPath": "madmilkman.ini.1.0.6.nupkg.sha512"
+    },
+    "Panuon.WPF/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l+QaGbOyxH4O/SBujqPPAP5iWzim/NY6yUpJJKF52iuabGZSl7FJFIQ7SakTUXX7ka/CGgDai6Q400Ymkn/jew==",
+      "path": "panuon.wpf/1.0.3",
+      "hashPath": "panuon.wpf.1.0.3.nupkg.sha512"
+    },
+    "Panuon.WPF.UI/1.1.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a8nQTSEh8LHff5okjeaIh2UYHXij5uWXPjN1CQR3U/yhIq6Y0saIPsy7jv69C6P2sSt54eTlqCb7cnzMZ9ufVQ==",
+      "path": "panuon.wpf.ui/1.1.16.3",
+      "hashPath": "panuon.wpf.ui.1.1.16.3.nupkg.sha512"
+    }
+  }
+}
